@@ -45,6 +45,10 @@ body {
   height: 34px;
 }
 
+.logo:hover {
+  animation: moveInRight 1s ease-out;
+}
+
 .text-box {
   position: absolute;
   top: 40%;
@@ -90,7 +94,7 @@ body {
   }
 
   80% {
-    transform: translateX(-10px);
+    transform: translateX(10px);
   }
 
   100% {
@@ -106,7 +110,7 @@ body {
   }
 
   80% {
-    transform: translateX(10px);
+    transform: translateX(-10px);
   }
 
   100% {
